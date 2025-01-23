@@ -2,8 +2,10 @@ import numpy as np
 from scipy.signal import detrend
 import matplotlib.pyplot as plt
 import os
+# Importing NewmarkIntegation and BaselineCorrection from pylib_gm_proc
+# pylib_gm_proc is part of the GM-GANO project available at:
+# https://github.com/yzshi5/GM-GANO/blob/main/Python_libs/pylib_gm_proc.py
 from pylib_gm_proc import NewmarkIntegation, BaselineCorrection
-
 # Set the directory containing the extracted files
 extracted_files_dir = 'Untitled Folder 2'
 
